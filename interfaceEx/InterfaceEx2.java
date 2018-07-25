@@ -21,7 +21,7 @@ class Super{
 }
 
 
-class B extends Super implements Inter2, Inter3
+class B extends Super implements Inter3
 {
 	public void aa() {}
 	public void bb() {}
@@ -29,17 +29,8 @@ class B extends Super implements Inter2, Inter3
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 public class InterfaceEx2 {
-
+	public static void main(String[] args) {
+		
+	}
 }
