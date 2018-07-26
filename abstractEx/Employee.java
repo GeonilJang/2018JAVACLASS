@@ -10,6 +10,7 @@ abstract public class Employee
 		this.name = name;
 	}
 	
+	
 	abstract public int income();
 	
 	
