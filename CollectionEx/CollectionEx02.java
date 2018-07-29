@@ -15,12 +15,19 @@ public class CollectionEx02 {
 		System.out.println("ArrayList========="); // 순서유지 중복허용.
 		Iterator ai = al.iterator();
 		
-		System.out.println(al);
+		
 		while(ai.hasNext()) {
 			System.out.println(ai.next());
 		}
 		
-		
+
+		// Set -> 집합의 개념을 이용한 것입니다.
+		/*
+		 * 교집합
+		 * 합집합 -> 중복을 포함하지 않는다.
+		 * 차집합
+	 
+		 * */
 		
 		HashSet<String> hs = new HashSet<String>();
 		hs.add("first");
